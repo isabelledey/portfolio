@@ -5,7 +5,7 @@ import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg"; 
 import meter3 from "../assets/img/meter3.svg"; 
 import bgGradientLeft from "../assets/img/color-sharp.png";
-import bgGradientRight from "../assets/img/color-sharp2.png";
+//import bgGradientRight from "../assets/img/color-sharp2.png";
 
 
 const responsive = {
@@ -85,36 +85,3 @@ export const Skills = () => {
   );
 };
 
-/* <div className="container">
-        <div className="skill-bx">
-          <h2>Skills</h2>
-          <p>
-            A quick overview of the technologies and tools I work with on both frontend and backend.
-          </p>
-          <div className="skill-slider">
-            <Carousel responsive={responsive} infinite={true} autoPlay autoPlaySpeed={3000}>
-              <div className="item">
-                <img src={meter1} alt="React" />
-                <h5>React.js</h5>
-              </div>
-              <div className="item">
-                <img src={meter1} alt="Node.js" />
-                <h5>Node.js & Express</h5>
-              </div>
-              <div className="item">
-                <img src={meter1} alt="SQL" />
-                <h5>SQL & Database Design</h5>
-              </div>
-              <div className="item">
-                <img src={meter1} alt="GitHub" />
-                <h5>Git & GitHub</h5>
-              </div>
-              <div className="item">
-                <img src={meter1} alt="Figma" />
-                <h5>Figma</h5>
-              </div>
-            </Carousel>
-          </div>
-        </div>
-      </div>
-      <img className="background-image-left" src={backgroundImageLeft} alt="Background" /> */

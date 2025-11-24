@@ -64,7 +64,7 @@ useEffect(() => {
               with clean, maintainable code.
             </p>
             <button onClick={() => console.log("connect")}>
-              Let's Connect
+              Let's Connect<BsArrowRightCircle size={25} />
             </button>
           </Col>
           <Col xs={12} md={6} xl={5}>
